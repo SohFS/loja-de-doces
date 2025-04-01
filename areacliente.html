@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Área do cliente</title>
+</head>
+<body>
+    <div class="inserir_dados">
+    <h1>Insira seus dados</h1>
+    </div>
+
+    <div class="container_nomecompleto">
+        <label for="nome"></label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required />
+    </div>
+    <div class="container_cpf">
+        <label for="cpf"></label>
+        <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required />
+    </div>
+    <div class="container_endereço">
+        <label for="endereço"></label>
+        <input type="text" name="endereço" id="endereço" placeholder="Digite seu endereço(rua,numero e bairro)" required />
+    </div>
+    <div class="container_numero">
+        <label for="telefone"></label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone: (00) 00000-0000 " pattern="[0-9]{2}[0-9]{5}-[0-9]{4}"  />
+    </div>
+
+    <div class="digitar_pedidos">
+    <h1>Digite seu pedido</h1>
+    </div>
+
+    <div class="container_pedido">
+        <label for="pedido"></label>
+        <input type="text" id="pedido" name="pedido" placeholder="Digite seu pedido" required />
+    </div>
+
+    <div class="forma_pagamento">
+    <h1>Forma de pagamento</h1>
+    </div>
+
+    <div class="container_pagamento">
+        <label for="pagamento"></label>
+        <input type="text" id="pagamento" name="pagamento" placeholder="Credito,debito,pix ou dinheiro" required />
+    </div>
+
+    <div class="botao_enviar">
+        <button type="submit">ENVIAR PEDIDO</button>
+    </div>
+    
+</body>
+</html>
